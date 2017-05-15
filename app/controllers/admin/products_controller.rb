@@ -38,7 +38,7 @@ def update
 private
 
 def product_params
-  params.require(:product).permit(:title, :description, :quantity, :price)
+  params.require(:product).permit(:title, :description, :quantity, :price, :image)
 end
 
 end
